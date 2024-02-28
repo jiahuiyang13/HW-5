@@ -1,6 +1,5 @@
 package edu.uwm.cs351;
 import java.lang.reflect.Array;
-//Jiahui Yang
 import java.util.AbstractCollection;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
@@ -244,7 +243,6 @@ public class NewApptBook extends AbstractCollection<Appointment> implements Clon
 			return check;
 			}
 		}
-		//copied from HW 3-4
 		//makes a copy of the NewApptBook and generates a new NewApptBook with the nodes copied
 		public NewApptBook clone( ) { 
 			assert wellFormed() : "invariant failed at start of clone";
